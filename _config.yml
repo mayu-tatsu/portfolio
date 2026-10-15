@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Mayu's Portfolio Site
+title: Mayu Tatsumi
 first_name: Mayu
-middle_name:
+# middle_name:
 last_name: Tatsumi
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Just email me!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Mayu's site for basically everything. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -36,7 +36,7 @@ repo_theme_dark: dark # https://github.com/stats-organization/github-stats-exten
 # `user@host` and no `mailto:` for harvesters to scrape, and clicking one copies
 # it to the clipboard instead of opening a mail client.
 # See "Protecting email addresses from scrapers" in docs/CUSTOMIZE.md.
-protect_email: false
+protect_email: true
 
 # Off by default: the free public github-profile-trophy instance is disabled
 # (its Vercel deployment answers HTTP 402 / DEPLOYMENT_DISABLED), so every trophy
@@ -97,7 +97,7 @@ al_folio:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 posts_in_search: true
 bib_search: true
